@@ -1,0 +1,91 @@
+.emoji-page .header{
+    height: 25vh;
+    width: 100%;
+    background-color: #eb5850;
+
+}
+.emoji-page h1{
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    font-size: 60px;
+    font-family:monospace 	Courier New;
+    font-weight: 100;
+    color: white;
+}
+.emoji-page p{
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-transform: capitalize;
+}
+.emoji-page p span{
+    color: yellow;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.emoji-page h1 span
+{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.emoji-page .emoji{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.emoji-page .emoji input{
+    width: 70vh;
+    height: 6vh;
+    border-radius: 60px 0 0 60px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 18px;
+    outline: none;
+    border: solid 1px grey;
+}
+.emoji-page .emoji input::placeholder{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.emoji-page input:focus{
+    border: solid 2px #eb5850;
+}
+.emoji-page .emoji button{
+    height: 6.5vh;
+    width: 10vh;
+    border-radius:  0 60px 60px 0;
+    background-color: #eb5850;
+    color:  white;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+}
+.emoji-page .hi{
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    overflow-y: scroll;
+    justify-content: space-evenly;
+    
+}
+.emoji-page .footer{
+    height: 20vh;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.216);
+    margin-top: 5vh;
+}
+.emoji-page .footer h3{
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+.emoji-page .footer P{
+    color: black;
+    padding-top: 5vh;
+}
